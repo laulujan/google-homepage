@@ -109,20 +109,23 @@ img {
 } 
 
 .input-icons { 
-  width: 100%; 
+  width: 70%; 
   margin-bottom: 10px; 
 } 
 
 
 
 .input-field { 
-  width: 60%; 
+  width: 100%; 
   padding: 10px; 
   border-radius: 20px;
   border: none;
   outline: none;
   transition: none;
   padding-inline-start: 40px;
+  background: #ffffff url("https://i.ibb.co/6vrkZHv/Webp-net-resizeimage-3.png");
+  background-position: 95%;
+  background-repeat: no-repeat;
 } 
 
 #footer {
