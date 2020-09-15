@@ -1,3 +1,4 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 /* Base reset */
 * {
   margin: 0;
@@ -97,6 +98,31 @@ img {
   margin-right: auto;
   margin-top: 60px;
 }
+
+#search-section{
+ text-align: center;
+}
+
+
+.input-icons i { 
+  position: absolute; 
+} 
+
+.input-icons { 
+  width: 100%; 
+  margin-bottom: 10px; 
+} 
+
+.icon { 
+  padding: 10px; 
+  min-width: 40px; 
+} 
+
+.input-field { 
+  width: 100%; 
+  padding: 10px; 
+  text-align: center; 
+} 
 
 #footer {
   display: flex;
