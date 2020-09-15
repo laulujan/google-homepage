@@ -7,62 +7,61 @@
     <title>Google</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="https://use.fontawesome.com/77b4811093.js"></script>
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
   </head>
   <body>
     <div class="container">
       <header>
         <nav id="navbar" class="nav">
           <ul class="nav-list">
-            <li>
+            <li class="nav-items">
               <a href="gmail">Gmail</a>
             </li>
-            <li>
+            <li class="nav-items">
               <a href="images">Images</a>
             </li>
-            <li>
-              <a href="logo">Apps</a>
+            <li class="nav-items">
+              <a href="apps"><img src="https://i.ibb.co/fHXV5zC/1608949-20-1.png" alt="apps"/></a>
             </li>
             <li>
-              <a href="foto">Account</a>
+              <a href="foto"><img id="user-img" src="https://i.ibb.co/mNGwTFf/L.jpg" alt="user photo"/></a>
             </li>
           </ul>
         </nav>
       </header>
       <main id="main">
         <section id="image-section">
-          <img src="https://bit.ly/3bTX7vr" alt="google logo" />
+          <img id="image"src="https://bit.ly/3bTX7vr" alt="google logo" />
         </section>
         <section id="search-section"> 
           <div class="input-icons">
             <i class="fa fa-search" aria-hidden="true"></i>
-            <input  class="input-field"/>
+            <input type="text" class="input-field"/>
           </div>
-         
           <div>
-            <button>Google Search</button>
-            <button>I'm feeling lucky</button>
+            <button class="buttons">Google Search</button>
+            <button class="buttons">I'm Feeling Lucky</button>
           </div>
-        </section>
-        <section id="country-section">
-          <span>Mexico</span>
-        </section>    
+        </section>   
       </main>
       <footer id="footer">
+        <div id="country">
+          <span>Mexico</span>
+        </div>
         <div id="left">
           <ul class="nav-list">
-            <li><a>Advertising</a></li>
-            <li><a>Business</a></li>
-            <li><a>About</a></li>
-            <li><a>How search works</a></li>
+            <li><a class="footer-link">Advertising</a></li>
+            <li><a class="footer-link">Business</a></li>
+            <li><a class="footer-link">About</a></li>
+            <li><a class="footer-link">How search works</a></li>
           </ul>
         </div>
         <div id="right">
-          <ul class="nav-list">
-            <li><a>Privacy</a></li>
-            <li><a>Terms</a></li>
-            <li><a>Settings</a></li>
+          <ul class="nav-list footer">
+            <li><a class="footer-link">Privacy</a></li>
+            <li><a class="footer-link">Terms</a></li>
+            <li><a class="footer-link">Settings</a></li>
           </ul>
         </div>
       </footer>
